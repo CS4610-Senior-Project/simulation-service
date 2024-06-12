@@ -14,22 +14,26 @@ See project paper for more info.
 -   Create a model circuit in Amesim 
 
 -   Save the model by generating a python script file in Amesim
- `File -> Generate Model Script -> Python`
+  
+    `File -> Generate Model Script -> Python`
 
 -   Create a config.json file
  
 -   Set `$AME` environment variable to location of Amesim package
+
     `set AME=C:\\Program Files\\Simcenter\\2310\\Amesim`
      
 -   Go to simulation_service directory
+
     `cd simulation_service`
     
 -   Run simulation service
+
     `“C:\\Program Files\\Simcenter\\2310\\Amesim\\python.bat" simulation_service.py`
     - Note: We must run with the python distribution included with Amesim. CPP's virtual lab doesn't allow us to modify the Python path variable directly.
 
 
-#### List of elements in configuration file
+### List of elements in configuration file
 
 | Name |JSON Type|Description|
 |--|--|--|
